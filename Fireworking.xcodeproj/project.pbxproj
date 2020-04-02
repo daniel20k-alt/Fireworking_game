@@ -15,6 +15,8 @@
 		EE4A6C4F24363F230057B72D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4A6C4D24363F230057B72D /* Main.storyboard */; };
 		EE4A6C5124363F2D0057B72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4A6C5024363F2D0057B72D /* Assets.xcassets */; };
 		EE4A6C5424363F2D0057B72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4A6C5224363F2D0057B72D /* LaunchScreen.storyboard */; };
+		EE4A6C5D243641E70057B72D /* fuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE4A6C5B243641E70057B72D /* fuse.sks */; };
+		EE4A6C5E243641E70057B72D /* explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE4A6C5C243641E70057B72D /* explode.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		EE4A6C5024363F2D0057B72D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE4A6C5324363F2D0057B72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE4A6C5524363F2D0057B72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4A6C5B243641E70057B72D /* fuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fuse.sks; sourceTree = "<group>"; };
+		EE4A6C5C243641E70057B72D /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				EE4A6C5024363F2D0057B72D /* Assets.xcassets */,
 				EE4A6C5224363F2D0057B72D /* LaunchScreen.storyboard */,
 				EE4A6C5524363F2D0057B72D /* Info.plist */,
+				EE4A6C5C243641E70057B72D /* explode.sks */,
+				EE4A6C5B243641E70057B72D /* fuse.sks */,
 			);
 			path = Fireworking;
 			sourceTree = "<group>";
@@ -133,6 +139,8 @@
 			files = (
 				EE4A6C4F24363F230057B72D /* Main.storyboard in Resources */,
 				EE4A6C4624363F230057B72D /* GameScene.sks in Resources */,
+				EE4A6C5E243641E70057B72D /* explode.sks in Resources */,
+				EE4A6C5D243641E70057B72D /* fuse.sks in Resources */,
 				EE4A6C5124363F2D0057B72D /* Assets.xcassets in Resources */,
 				EE4A6C5424363F2D0057B72D /* LaunchScreen.storyboard in Resources */,
 				EE4A6C4824363F230057B72D /* Actions.sks in Resources */,
@@ -302,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MeerkatWorks.Fireworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -320,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MeerkatWorks.Fireworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
